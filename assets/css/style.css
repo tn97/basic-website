@@ -112,7 +112,7 @@ input {
 .messageinput {
     text-align: left;
     width: 100%;
-    padding: 100px;
+    height: 100px;
 }
 
 .submitbutton {
