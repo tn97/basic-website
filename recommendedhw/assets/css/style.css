@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+
+    /* outline: 2px dotted white; */
+}
+
+body {
+    background-image: url("../images/background.png");
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    margin-bottom: 20px;
+    padding: 0;
+    background:white;
+}
+
+.yourname {
+    height: 100%;
+    width: 20%;
+    margin-left: 100px;
+    padding: 10px;
+    background: rgb(25, 168, 144);
+    float: left;
+}
+
+.timothy {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding: 5px;
+    margin: auto;
+}
+ul {
+    text-align: initial;
+    width: 19%;
+    color: grey;
+    list-style-type: none;
+    font-size: 16px;
+    float: right;
+}
+
+li {
+    display: inline;
+}
+
+.aboutmebox {
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+    width: 960px;
+    color: rgb(25, 168, 144);
+    height: 100%;
+    background: white;
+    margin: auto;
+    padding: 25px;
+    overflow: auto;
+}
+
+.separator {
+    border:1px solid grey;
+    margin: 20px;
+}
+
+.aboutmetext {
+    line-height: 35px;
+    font-size: 18px;
+    font-weight: normal;
+    color: grey;
+}
+
+.aboutmeimage {
+    float: left;
+    margin:10px;
+}
+
+.text {
+    text-align: left;
+}
+
+.nameheader {
+    text-align: left;
+    font-size: 16px;
+    color: grey;
+}
+
+.emailheader {
+    text-align: left;
+    font-size: 16px;
+    color: grey;
+}
+
+input {
+    text-align: left;
+    width: 100%;
+}
+
+.messageheader {
+    text-align: left;
+    font-size: 16px;
+    color: grey;
+}
+
+.messageinput {
+    text-align: left;
+    width: 100%;
+    padding: 100px;
+}
+
+.submitbutton {
+    background: rgb(25, 168, 144);
+    margin-top: 15px;
+    padding: 5px;
+    font-size: 14px;
+    color: white;
+    float: left;
+}
+
+.picture {
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    padding: 0;
+    float: left;
+    position: relative;
+}
+
+/* .hangman, .rpgGame, .triviaGame, .rutgersInfoWidget, .rockPaperScissors {
+    width: 300px;
+    height: 200px;
+    float: left;
+} */
+
+.words {
+    width: 100%;
+    height: 30px;
+    font-weight: normal;
+    font-size: 20px;
+    background-color: rgb(25, 168, 144);
+    color: white;
+    position: absolute;
+    top: 90px;
+}
+/* 
+.hangman {
+    float: left;
+}
+
+.rpgGame {
+    float: left;
+    margin-left: 20px;
+}
+
+.triviaGame {
+    float: left;
+    margin: 20px;
+}
+
+.rutgersInfoWidget {
+    float: left;
+    margin: 20px;
+}
+
+.rockPaperScissors {
+    float: left;
+    margin: 20px;
+} */
